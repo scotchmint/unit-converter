@@ -29,14 +29,13 @@ h2 {
 #number {
     border: 1px solid #B295FF;
     border-radius: 5px;
+    background-color: #6943FF;
     color: white;
     font-weight: 800;
     font-size: 58px;
     width: 117px;
     height: 83px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    text-align: center;
 }
 
 button {
@@ -48,4 +47,45 @@ button {
     font-weight: 500;
     font-size: 16px;
     cursor: pointer;
+}
+
+#converted-numbers-container {
+    background-color: #1F2937;
+    width: 550px;
+    height: 444px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.converted-numbers {
+    width: 500px;
+    height: 380px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.box {
+    background-color: #273549;
+    border-radius: 5px;
+    width: 500px;
+    height: 108px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.head {
+    color: #CCC1FF;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.tail {
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 14px;
 }
