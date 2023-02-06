@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+}
+
+#container {
+    width: 550px;
+    height: 729px;
+    margin-top: 126px;
+    margin-left: 76px;
+}
+
+h2 {
+    color: #FFFFFF;
+    margin: 0;
+    font-weight: 800;
+    font-size: 28px;
+}
+
+#number-to-convert {
+    background-color: #6943FF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 550px;
+    height: 285px;
+}
+
+#number {
+    border: 1px solid #B295FF;
+    border-radius: 5px;
+    color: white;
+    font-weight: 800;
+    font-size: 58px;
+    width: 117px;
+    height: 83px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    border: none;
+    border-radius: 5px;
+    width: 117px;
+    height: 42px;
+    background-color: #FFFFFF;
+    font-weight: 500;
+    font-size: 16px;
+    cursor: pointer;
+}
